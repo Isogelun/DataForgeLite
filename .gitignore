@@ -1,0 +1,54 @@
+# 编译产物
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# 模型文件（体积大，不上传）
+hfa_model/
+onnxruntime-win-x64-*/
+onnxruntime-win-x64-gpu-*/
+Microsoft.ML.OnnxRuntime.DirectML.*/
+Qwen3-ASR-*/
+qwen3-asr-*/
+qwen3asrinfer/
+llama-b8389-bin-win-cpu-x64/
+llama-b8389-headers/
+model/
+Game/GAME-*/
+
+# 测试数据
+aaaa/
+asr_test_input/
+asr_test_output/
+tmp_shell_write.txt
+
+# 压缩包
+*.zip
+*.tgz
+
+# Go 构建缓存
+/vendor/
+
+# WPF 构建产物
+DataForgeLiteClient/DataForgeLiteClient/bin/
+DataForgeLiteClient/DataForgeLiteClient/obj/
+
+# IDE / 工具目录
+.vs/
+.vscode/
+.idea/
+.roo/
+.cospec/
+.dotnet_cli_home/
+*.user
+*.suo
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# .NET 构建产物
+tools/OnnxStringScan/bin/
+tools/OnnxStringScan/obj/
